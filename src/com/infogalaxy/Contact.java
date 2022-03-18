@@ -1,5 +1,4 @@
 package com.infogalaxy;
-
 public class Contact {
     private String firstName;
     private String lastName;
@@ -13,7 +12,7 @@ public class Contact {
     public void setFirstName(String firstName){
         this.firstName = firstName;
     }
-    public void setLastName(String lastName1){
+    public void setLastName(String lastName){
         this.lastName = lastName;
     }
     public void setAddress(String address){
@@ -58,7 +57,6 @@ public class Contact {
     public String getZip(){
         return this.zip;
     }
-
     @Override
     public String toString() {
         return "Contact{" +
